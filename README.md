@@ -1,41 +1,24 @@
-# Awesome-Channel-Revenue-Management
 
 # Awesome-Channel-Revenue-Management 🏢 💰
 
 
 
 <p align="center">
-
   <img src="assets/banner.svg" alt="Awesome Channel Revenue Management Banner" width="100%">
-
 </p>
-
-
 
 <p align="center">
-
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
-
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-Channel-Revenue-Management"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Channel-Revenue-Management?style=social" alt="GitHub_Stars"/></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-Channel-Revenue-Management/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Channel-Revenue-Management?style=social" alt="GitHub Forks"/></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-Channel-Revenue-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Channel-Revenue-Management?color=blue" alt="License"/></a>
-
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
-
 </p>
-
-
 
 ---
 
-
-
 ## 🌟 Top Channel Revenue Management Ecosystem
-
 
 
 **Curated List of Commercial Partner Revenue Platforms & Open-Source Channel Management Tools**  
@@ -43,13 +26,10 @@
 *Focused on Deal Registration, Partner Onboarding, Commission Management, Rebate Processing, Channel Pipeline Visibility & Self-Hosted Partner Programs*
 
 
-
 **Last updated: October 2026** 📅
 
 
-
 ---
-
 
 
 ### 📌 Overview & SEO Summary 🔍
@@ -64,7 +44,6 @@ Whether your partner organization is architecting an enterprise multi-tier resel
 - 💰 **Channel Incentive & Commission Management (ICM)**: Multi-agent tier structures, revenue shares, automated payouts, and sales rep SPIFFs .
 - 🏷️ **Rebates, Chargebacks & Rappels**: Retroactive tiered rebates, contract settlement calculations, deduction handling, and credit note issuance .
 - 🌐 **Open-Source & Self-Hosted Ecosystems**: MIT/AGPL licensed architectures for complete indirect sales infrastructure ownership .
-
 
 
 **Key Market Context:**
@@ -94,18 +73,11 @@ Whether your partner organization is architecting an enterprise multi-tier resel
 ## 📑 Table of Contents
 
 - [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
-
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
 - [🛠️ How to Contribute](#%EF%B8%8F-how-to-contribute)
-
 - [📊 Star History](#-star-history)
-
 - [🤝 Support & Sponsorship](#-support--sponsorship)
-
 - [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
-
-
 
 ---
 
@@ -130,11 +102,7 @@ The channel revenue management market spans **enterprise PRM suites** (Salesforc
 | **[Mindmatrix PRM](https://www.mindmatrix.net/)** 🟡 | Mindmatrix Inc. | ~$14M - $18M ARR | **$499/month** (Entry tier; full enterprise PRM suites avg. $24k/yr) | **No free tier**; free interactive guided demo & tailored custom Proof-of-Concept (POC) validation environment | **Partner enablement with marketing automation** — Combines PRM with through-channel marketing automation for indirect sales teams. |
 | **[Channeltivity](https://channeltivity.com/)** 🟠 | Channeltivity | ~$1.5M - $3M ARR | **$1,199/month** (Standard Growth edition, billed annually) | **No free tier**; 30-minute interactive live walkthrough demo (no self-serve free trial) | **Mid-market channel management** — Deal registration, MDF management, partner portal, and co-branded collateral for fast-growing programs. |
 
-
-
 ---
-
-
 
 ## 🔓 Open-Source GitHub Projects
 
@@ -182,23 +150,15 @@ The channel revenue management market spans **enterprise PRM suites** (Salesforc
 ## 🛠️ How to Contribute
 
 
-
 Contributions are welcome! Follow these steps to submit new channel revenue management platforms or open-source partner management software:
 
 
-
 1. 🍴 **Fork** the repository.
-
 2. 📝 **Add/edit** entries in `README.md` maintaining table/list structure and formatting.
-
 3. 🔗 Include project title, official website/GitHub link, exact Stars_Count, license, and brief description.
-
 4. 🚀 Submit a **Pull Request** with a descriptive summary of your changes.
 
-
-
 ---
-
 
 
 ## 📊 Star History
@@ -246,13 +206,8 @@ If you find this channel revenue management repository useful, please consider s
 - **Open-source channel revenue tools are not turnkey** — **Refferq requires Node.js 18+, PostgreSQL 14+, and API keys for Resend email service** . **BiznisBox requires self-hosted deployment with payment gateway credentials** . **Odoo OCA Commission modules require an Odoo Community instance** . **Always validate deal registration workflows, commission calculations, and payout processing with a proof-of-concept** before production deployment. 🏢
 
 
-
 ---
 
-
-
 <p align="center">
-
   <b>Made with ❤️ for channel leaders, partner operations teams, and open-source partner management advocates.</b>
-
 </p>
