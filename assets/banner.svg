@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .bg-grid {
+      stroke: rgba(99, 102, 241, 0.08);
+      stroke-width: 1;
+    }
+    .flow-line {
+      stroke-dasharray: 8, 8;
+      animation: dash 25s linear infinite;
+    }
+    .pulse-node {
+      animation: pulse 3s ease-in-out infinite alternate;
+    }
+    .pulse-node-2 {
+      animation: pulse 4s ease-in-out 1.5s infinite alternate;
+    }
+    .float-card-1 {
+      animation: floatA 6s ease-in-out infinite alternate;
+    }
+    .float-card-2 {
+      animation: floatB 7s ease-in-out 1s infinite alternate;
+    }
+    @keyframes dash {
+      from { stroke-dashoffset: 400; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes pulse {
+      0% { r: 5px; opacity: 0.4; }
+      100% { r: 9px; opacity: 0.9; }
+    }
+    @keyframes floatA {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-8px); }
+    }
+    @keyframes floatB {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(8px); }
+    }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGradient)" />
+
+  <!-- Technical Background Grid -->
+  <g class="bg-grid">
+    <path d="M0 60 H1200 M0 120 H1200 M0 180 H1200 M0 240 H1200 M0 300 H1200" />
+    <path d="M120 0 V360 M240 0 V360 M360 0 V360 M480 0 V360 M600 0 V360 M720 0 V360 M840 0 V360 M960 0 V360 M1080 0 V360" />
+  </g>
+
+  <!-- Ambient Glowing Blobs in Background -->
+  <circle cx="200" cy="180" r="140" fill="#4f46e5" opacity="0.12" filter="url(#glow)" />
+  <circle cx="1000" cy="180" r="150" fill="#ec4899" opacity="0.10" filter="url(#glow)" />
+
+  <!-- Dynamic / Animated Revenue Flow Graph in Background -->
+  <g opacity="0.45">
+    <path class="flow-line" d="M -50 280 Q 250 180 500 290 T 950 140 T 1250 220" fill="none" stroke="#6366f1" stroke-width="2" />
+    <path class="flow-line" d="M -50 120 Q 300 240 600 130 T 1050 260 T 1250 150" fill="none" stroke="#ec4899" stroke-width="1.5" />
+    
+    <!-- Pulsing Nodes -->
+    <circle class="pulse-node" cx="250" cy="180" r="7" fill="#818cf8" filter="url(#subtleGlow)" />
+    <circle class="pulse-node-2" cx="500" cy="290" r="6" fill="#a78bfa" filter="url(#subtleGlow)" />
+    <circle class="pulse-node" cx="950" cy="140" r="8" fill="#f472b6" filter="url(#subtleGlow)" />
+    <circle class="pulse-node-2" cx="600" cy="130" r="7" fill="#38bdf8" filter="url(#subtleGlow)" />
+  </g>
+
+  <!-- Floating Dynamic Metric Pill (Left side, background layer) -->
+  <g class="float-card-1" opacity="0.75">
+    <rect x="50" y="45" width="230" height="52" rx="10" fill="#1f2937" stroke="#374151" stroke-width="1" />
+    <circle cx="75" cy="71" r="10" fill="#10b981" opacity="0.2" />
+    <circle cx="75" cy="71" r="4" fill="#10b981" />
+    <text x="96" y="67" fill="#9ca3af" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600">DEAL REGISTRATION</text>
+    <text x="96" y="85" fill="#f3f4f6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold">Pipeline: +42.8%</text>
+  </g>
+
+  <!-- Floating Dynamic Metric Pill (Right side, background layer) -->
+  <g class="float-card-2" opacity="0.75">
+    <rect x="920" y="260" width="230" height="52" rx="10" fill="#1f2937" stroke="#374151" stroke-width="1" />
+    <circle cx="945" cy="286" r="10" fill="#6366f1" opacity="0.2" />
+    <circle cx="945" cy="286" r="4" fill="#818cf8" />
+    <text x="966" y="282" fill="#9ca3af" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600">CHANNEL REBATES</text>
+    <text x="966" y="300" fill="#f3f4f6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold">Settlements Active</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Title, Subtitle, Badges (Crisp, High Contrast, Guaranteed Foreground) -->
+  <g>
+    <!-- Top Category Pill -->
+    <rect x="445" y="48" width="310" height="32" rx="16" fill="rgba(99, 102, 241, 0.15)" stroke="rgba(129, 140, 248, 0.4)" stroke-width="1" />
+    <text x="600" y="69" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" text-anchor="middle">AWESOME CURATED ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text x="600" y="145" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5" text-anchor="middle">
+      Channel Revenue Management
+    </text>
+
+    <!-- Subtitle Gradient Highlight -->
+    <text x="600" y="195" fill="url(#primaryGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">
+      PRM Platforms • Partner Incentives • Rebates • Deal Registration
+    </text>
+
+    <!-- Description Details -->
+    <text x="600" y="240" fill="#9ca3af" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="middle">
+      The definitive directory of commercial partner suites and open-source channel monetization engines
+    </text>
+
+    <!-- Feature Pills in Foreground Footer -->
+    <g transform="translate(305, 275)">
+      <rect x="0" y="0" width="160" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="80" y="20" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🏢 Enterprise PRM</text>
+
+      <rect x="180" y="0" width="190" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="275" y="20" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🔓 Open-Source Tools</text>
+
+      <rect x="390" y="0" width="200" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="490" y="20" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">💰 Commission &amp; Rebates</text>
+    </g>
+  </g>
+</svg>

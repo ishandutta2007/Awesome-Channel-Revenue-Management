@@ -52,9 +52,18 @@
 
 
 
-### 📌 Overview & SEO Summary
+### 📌 Overview & SEO Summary 🔍
 
-Welcome to the ultimate curated directory of **channel revenue management platforms**, **partner relationship management (PRM) systems**, and **open-source channel incentive tools**. Whether you are looking for enterprise-grade commercial solutions (such as *Salesforce Partner Cloud*, *Model N*, and *Impartner*), or self-hostable open-source alternatives (like *xAmplify OpenSource PRM*, *Refferq*, and *BiznisBox*), this list covers category leaders, deal registration workflows, and privacy-respecting channel operations.
+Welcome to the ultimate curated directory and comprehensive guide to **Channel Revenue Management (CRM)**, **Partner Relationship Management (PRM) platforms**, **Deal Registration workflows**, and **Open-Source Channel Incentive & Rebate tools** . 
+
+Whether your partner organization is architecting an enterprise multi-tier reseller ecosystem (leveraging commercial leaders like *Salesforce Partner Cloud*, *Oracle PRM*, and *Model N*), scaling B2B SaaS co-selling & affiliate programs (*PartnerStack*, *Impartner*, *HubSpot*), or deploying privacy-first, zero-vendor-lock-in self-hosted platforms (*Weferral*, *Refref*, *OCA Commission for Odoo*, *Refferq*), this directory provides vetted architecture comparisons, transparent tier pricing, verified free limits, and direct repository stargazers metrics . 🚀
+
+**Target Channel Disciplines Covered:**
+- 🤝 **Partner Relationship Management (PRM)**: Partner onboarding, partner portals, co-marketing collateral, enablement & LMS certification .
+- 📝 **Deal Registration & Pipeline Governance**: Conflict resolution, opportunity pipeline inspection, co-selling attribution, and lead routing .
+- 💰 **Channel Incentive & Commission Management (ICM)**: Multi-agent tier structures, revenue shares, automated payouts, and sales rep SPIFFs .
+- 🏷️ **Rebates, Chargebacks & Rappels**: Retroactive tiered rebates, contract settlement calculations, deduction handling, and credit note issuance .
+- 🌐 **Open-Source & Self-Hosted Ecosystems**: MIT/AGPL licensed architectures for complete indirect sales infrastructure ownership .
 
 
 
@@ -129,57 +138,40 @@ The channel revenue management market spans **enterprise PRM suites** (Salesforc
 
 ## 🔓 Open-Source GitHub Projects
 
+*Sorted by GitHub Stars Count (Descending)* 🌟
 
+- **[Weferral](https://github.com/WeferralHq/weferral)** [![Stars](https://img.shields.io/github/stars/WeferralHq/weferral?style=social&color=white)](https://github.com/WeferralHq/weferral/stargazers) 🤝
+  **Complete open-source affiliate program & referral management software** . Provides all core tools required to start, manage, track, and scale multi-tier partner and affiliate networks . Features flexible commission payouts, affiliate dashboards, link tracking, and extensible webhook APIs for modern SaaS platforms . 📈
 
-*Sorted by GitHub_Stars_Count (Descending)* 🌟
+- **[Refref](https://github.com/amicalhq/refref)** [![Stars](https://img.shields.io/github/stars/amicalhq/refref?style=social&color=white)](https://github.com/amicalhq/refref/stargazers) 🚀
+  **Modern open-source referral and affiliate marketing platform** . Launch fully-customized partner and referral programs in minutes . Provides fraud prevention, tracking redirects, real-time conversion webhooks, partner analytics dashboards, and zero vendor lock-in . 🎯
 
+- **[OCA Commission](https://github.com/OCA/commission)** [![Stars](https://img.shields.io/github/stars/OCA/commission?style=social&color=white)](https://github.com/OCA/commission/stargazers) 💰
+  **Definitive open-source commission management engine for Odoo ERP**, AGPL-3.0 licensed . Enables granular channel partner incentives, sales commissions, account commissions, formulaic tiered rates, product-category criteria, and multi-agent settlement workflows for B2B distributor networks . 🏢
 
+- **[Refferq](https://github.com/Refferq/Refferq)** [![Stars](https://img.shields.io/github/stars/Refferq/Refferq?style=social&color=white)](https://github.com/Refferq/Refferq/stargazers) 📊
+  **Open-source referral and affiliate marketing platform built for SaaS businesses** . Automated commission calculations, percentage and flat payouts (NET-15, NET-30 via Stripe, Wise, PayPal), partner application vetting, referral status lifecycle tracking, and transactional email automations . Built with Next.js 15, React 19, TypeScript, PostgreSQL, Prisma, and Tailwind CSS . ⚡
 
-- **[xAmplify OpenSource PRM](https://github.com/xAmplify/xAmplify-OpenSource-PRM)** [![Stars](https://img.shields.io/github/stars/xAmplify/xAmplify-OpenSource-PRM?style=social&color=white)](https://github.com/xAmplify/xAmplify-OpenSource-PRM/stargazers)  
+- **[Open-Affiliate](https://github.com/Affitor/open-affiliate)** [![Stars](https://img.shields.io/github/stars/Affitor/open-affiliate?style=social&color=white)](https://github.com/Affitor/open-affiliate/stargazers) 🌐
+  **Open-source registry and discovery directory of affiliate programs**, built specifically for developers, programmatic integrations, and autonomous AI agents . Enables automated programmatic access to affiliate terms, commission rates, and partner network metadata . 🤖
 
-  **Free, open-source foundation for partner relationship management**, open-source. **Launched September 2025** as a **community-driven PRM platform** . **Partner onboarding, deal registration, and core reporting** — **host it, customize it, run it your way, no strings attached** . **Modular, adaptable architecture** supporting **managed service providers, distributors, resellers, and custom partner models** . **Designed to reduce vendor lock-in** and enable **greater innovation across partner programs** . **Seamlessly move to xAmplify Cloud when ready to scale with integrations, AI, and enterprise features** . **The most complete open-source PRM platform** . 🚀
+- **[Django Referral System](https://github.com/soldatov-ss/django-referral-system)** [![Stars](https://img.shields.io/github/stars/soldatov-ss/django-referral-system?style=social&color=white)](https://github.com/soldatov-ss/django-referral-system/stargazers) 🐍
+  **Production-ready Django engine for managing referral programs** . Provides promoter management, referral tracking, commission payout calculations, Wise CSV batch payment exports, and granular click & conversion analytics for Python/Django web applications . 📦
 
+- **[BiznisBox](https://github.com/biznisbox/biznisbox)** [![Stars](https://img.shields.io/github/stars/biznisbox/biznisbox?style=social&color=white)](https://github.com/biznisbox/biznisbox/stargazers) 🏢
+  **Open-source all-in-one business and partner management platform**, AGPL-3.0 licensed . Multi-currency quotes, partner lifecycle management, contracts with digital signing, payment reconciliation via Stripe & PayPal, audit logs, and self-hosted privacy compliance . 📑
 
+- **[Refearn](https://github.com/ZAK123DSFDF/refearnapp)** [![Stars](https://img.shields.io/github/stars/ZAK123DSFDF/refearnapp?style=social&color=white)](https://github.com/ZAK123DSFDF/refearnapp/stargazers) ⚡
+  **High-scale, self-hostable affiliate tracking & referral management platform** . Open-source alternative to Rewardful, FirstPromoter, and Tolt . Architected for high throughput with Next.js, Cloudflare Edge, Drizzle ORM, and Docker . 🛡️
 
-- **[Refferq](https://github.com/Refferq/Refferq)** [![Stars](https://img.shields.io/github/stars/Refferq/Refferq?style=social&color=white)](https://github.com/Refferq/Refferq/stargazers)  
+- **[OCA Agreement Rebates](https://github.com/OCA/agreement)** [![Stars](https://img.shields.io/github/stars/OCA/agreement?style=social&color=white)](https://github.com/OCA/agreement/stargazers) 🏷️
+  **Open-source channel rebate and retroactive discount management for Odoo**, AGPL-3.0 licensed . Defines contract rebate conditions, global rappel discounts, line-item rappels, section-based rebate matches, and automatic rappel credit note / invoice settlement generation . 📑
 
-  **Open-source referral and affiliate marketing platform for SaaS businesses**, open-source. **Launch your referral program in minutes** . **For Admins**: **dashboard analytics with real-time revenue tracking, conversion rate analytics, and partner performance metrics** . **Partner management**: **approve/reject affiliate applications, manage partner groups, set custom commission rates, and view partner activity logs** . **Referral management**: **review and approve lead submissions, track referral status (Pending, Approved, Rejected), and manual lead conversion tracking** . **Commission & Payouts**: **automated commission calculations, flexible commission rules (percentage-based and fixed), payout scheduling (NET-15, NET-30, etc.), and multiple payout methods (PayPal, Bank Transfer, Stripe, Wise)** . **Email automation**: **welcome emails, referral notifications, commission approval alerts, payout confirmations, and customizable templates** . **For Affiliates**: **personal dashboard with earnings overview (total, pending, paid), click tracking, lead conversion metrics, unique referral link, shareable referral code, and payout tracking** . **Tech Stack**: **Next.js 15.2.3, React 19, TypeScript, PostgreSQL, Prisma, JWT (jose), bcryptjs, Tailwind CSS, Recharts, Resend** . **The most complete open-source referral and channel incentive platform** . 🎯
+- **[Surka](https://github.com/arian-gogani/surka)** [![Stars](https://img.shields.io/github/stars/arian-gogani/surka?style=social&color=white)](https://github.com/arian-gogani/surka/stargazers) 🔄
+  **Open-source partner cross-promotion swap and co-marketing manager** . Coordinates reciprocal partner campaigns, mutual deliverable milestones, verifiable proof-of-execution verification, and half-life reputation tracking without vendor lock-in . 🤝
 
-
-
-- **[BiznisBox](https://github.com/biznisbox/biznisbox)** [![Stars](https://img.shields.io/github/stars/biznisbox/biznisbox?style=social&color=white)](https://github.com/biznisbox/biznisbox/stargazers)  
-
-  **Open-source all-in-one business management platform**, AGPL-3.0 licensed. **All-in-one solution for invoices, quotes, documents, and payments** . **Partner Management** — **manage customers, suppliers, and partners** . **Invoice & Quote Management** — **create and track issued invoices and quotes** . **Payment Management** — **record issued and received payments** . **Contract Management** — **create and sign contracts digitally** . **Project Management** — **track projects and tasks** . **User Roles & Permissions** — **manage user access and permissions** . **Multi-Language Support** — **English, French, and Spanish** . **Audit Log** — **track changes with detailed history** . **Payment Gateway Integration** — **Stripe, PayPal, and Coinbase Commerce** . **Open Banking Integration** — **supports GoCardless** . **Self-Hosted** — **full control over your data and privacy** . **API Access** — **integrate with other tools and services** . **The most complete open-source channel partner business management platform** . 🏢
-
-
-
-- **[Odoo OCA Commission](https://github.com/newcom-lcs/oca-commission)** [![Stars](https://img.shields.io/github/stars/newcom-lcs/oca-commission?style=social&color=white)](https://github.com/newcom-lcs/oca-commission/stargazers)  
-
-  **Open-source commission management modules for Odoo**, AGPL-3.0 licensed. **The most comprehensive open-source commission management suite for channel incentives** . **Available addons**: **`account_commission`** (account commissions), **`commission`** (base commissions), **`commission_delegated_partner`** (delegate invoices to partner), **`commission_formula`** (formula-based commissions), **`hr_commission`** (HR commissions), **`sale_commission`** (sales commissions), **`sale_commission_agent_restrict`** (agent restrictions), **`sale_commission_margin`** (margin-based commissions), **`sale_commission_product_criteria`** (product criteria rules), **`sale_commission_product_criteria_country`** (country criteria), **`sale_commission_product_criteria_discount`** (discount criteria), **`sale_commission_product_criteria_domain`** (domain criteria), **`sale_commission_product_criteria_fiscal_position_type`** (fiscal position criteria), **`sale_commission_salesman`** (salesman commissions) . **The definitive open-source channel commission engine** . 💰
-
-
-
-- **[Odoo Agreement Rebate](https://github.com/OCA/agreement)** [![Stars](https://img.shields.io/github/stars/OCA/agreement?style=social&color=white)](https://github.com/OCA/agreement/stargazers)  
-
-  **Open-source rebate management for Odoo agreements**, AGPL-3.0 licensed. **Extends agreement module to define rebate conditions** . **Create rebate agreements with rappel types**: **Basic global rappel discount, Basic rappel discount by line items, Section rappel discount rule match, and Calculate the discount in each amount section** . **Create rebate lines and apply product template filters** . **Generate rebate settlements from Agreements > Settlements > Create Settlements wizard** . **Create rappel invoices from Agreements > Settlements > Create Invoices wizard** . **The most complete open-source channel rebate management module** . 📊
-
-
-
-- **[Opencell](https://github.com/opencell-solutions/opencell)** [![Stars](https://img.shields.io/github/stars/opencell-solutions/opencell?style=social&color=white)](https://github.com/opencell-solutions/opencell/stargazers)  
-
-  **Open-source agile subscription and usage monetization platform**, open-source. **Used by over 30 customers worldwide** including **Orange Cloud for Business, Bouygues Telecom, EDF, and Total Spring** . **Acquire**: **agile subscription or usage-based pricing, flexible catalog and bundles, offer simulation, instant promotions, and integrated quoting for direct and indirect sales** . **Monetize**: **custom mediation for usage events, billing, invoicing and partner management, integrated order management and provisioning, multichannel payment gateway, and integrated AR management & dunning** . **Retain**: **unified view of customer activity, upgrades, conversions and renewals, best offer management, and customer care portal** . **Report**: **subscription analytics and data warehouse, customizable dashboards, integrated revenue recognition, tax management, and G/L integration** . **Open source code, no vendor lock-in, 400+ rich APIs and third-party connectors** . **Best for telecom, cloud infrastructure, IoT, and utilities channel billing** . 🏗️
-
-
-
-- **[Surka](https://github.com/arian-gogani/surka)** [![Stars](https://img.shields.io/github/stars/arian-gogani/surka?style=social&color=white)](https://github.com/arian-gogani/surka/stargazers)  
-
-  **Partner cross-promotion swap management tool**, open-source. **Runs partner swaps from yes to results: terms, deadlines, reminders, proof of delivery, and a record of who keeps their word** . **Create it**: **add two businesses and write what each gives and by when — both sides must give something or Surka refuses the swap** . **Send it**: **each side gets a private link, no account needed** . **Partner answers**: **accept, suggest changes, or decline — a counter reopens terms** . **Both sides deliver**: **each side marks commitments delivered with proof (newsletter archive, live listing)** . **Check it**: **mark each commitment kept or missed against proof** . **Reputation counts commitments kept, never results** — **old outcomes fade with a 180-day half-life** . **Tech Stack**: **Node 20+, PGlite (Postgres compiled to WebAssembly), Next.js, TypeScript** . **The most innovative open-source partner collaboration tool** . 🔄
-
-
-
-- **[SuperHertz Marketplace](https://github.com/yourusername/superhertz-marketplace)** [![Stars](https://img.shields.io/github/stars/yourusername/superhertz-marketplace?style=social&color=white)](https://github.com/yourusername/superhertz-marketplace/stargazers)  
-
-  **Comprehensive multi-vendor solution for WordPress**, open-source. **Self-Service Partner Portal** — **full frontend dashboard for vendors to manage products, policies, and orders without admin access** . **Advanced Catalog Engine** — **Product Blueprints and multi-step listing wizard for consistency** . **Commercial Transaction Flow** — **sliding AJAX cart, unified master checkout, and multi-vendor split-payment readiness** . **Elementor Integration** — **15+ dedicated widgets for custom marketplace views and dynamic listing templates** . **Transaction Snapshotting** — **core logic that freezes product data at order moment for historical accuracy** . **Best for WordPress-based channel marketplaces** . 🛒
+- **[xAmplify OpenSource PRM](https://github.com/xAmplify/xAmplify-OpenSource-PRM)** [![Stars](https://img.shields.io/github/stars/xAmplify/xAmplify-OpenSource-PRM?style=social&color=white)](https://github.com/xAmplify/xAmplify-OpenSource-PRM/stargazers) 🚀
+  **Community-driven open-source PRM framework** . Designed to provide partner onboarding, deal registration forms, and channel pipeline visibility with a modular architecture for MSPs, distributors, and value-added resellers (VARs) . 🌟
 
 
 
