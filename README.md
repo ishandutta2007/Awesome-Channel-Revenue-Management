@@ -138,7 +138,7 @@ The channel revenue management market spans **enterprise PRM suites** (Salesforc
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub Stars Count (Descending)* 🌟
+*Sorted by GitHub_Stars_Count (Descending)* 🌟
 
 - **[Weferral](https://github.com/WeferralHq/weferral)** [![Stars](https://img.shields.io/github/stars/WeferralHq/weferral?style=social&color=white)](https://github.com/WeferralHq/weferral/stargazers) 🤝
   **Complete open-source affiliate program & referral management software** . Provides all core tools required to start, manage, track, and scale multi-tier partner and affiliate networks . Features flexible commission payouts, affiliate dashboards, link tracking, and extensible webhook APIs for modern SaaS platforms . 📈
